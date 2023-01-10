@@ -11,11 +11,18 @@ const IndexPage = ({
     allMarkdownRemark: { edges },
   },
 }) => {
+  let idx = 0
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => 
+      {
+        ++idx
+        return (!!edge.node.frontmatter.date && idx < 4)
+      }) 
     .map(edge => <ArticlePreview key={edge.node.id} post={edge.node} />)
+    // .shift()
 
-  const firstPost = Posts[0]
+  const latest = Posts[0]
+  Posts.shift();
 
   const links = [
     {
@@ -41,12 +48,14 @@ const IndexPage = ({
       </div>
 
       <div className = {indexStyles.FeaturedReview}>
-          {firstPost}
+        Featured Review: 
+          {latest}
       </div>
-
-      <div>{Posts}</div>
+          
+      <div className = {indexStyles.Previews}>
+        {Posts}
+      </div>
     </Layout>
-  
   )
 }
 

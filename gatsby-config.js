@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://yetanothermousereview.com`,
   },
   plugins: [
+    'gatsby-plugin-postcss',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
