@@ -8,8 +8,11 @@ export default function Navbar() {
              <Link className = {styles.menuElement} href="/">
                 Home
             </Link>
-            <Link className = {styles.menuElement} href="/reviews">
-                Reviews
+            <Link className = {styles.menuElement} href="/mousereviews">
+                Mouse Reviews
+            </Link>
+            <Link className = {styles.menuElement} href="/mousepadreviews">
+                Mousepad Reviews
             </Link>
             <Link className = {styles.menuElement} href="/about">
                 About
