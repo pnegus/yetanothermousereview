@@ -4,14 +4,14 @@ import Link from 'next/link';
 
 export default function Navbar() {
     return (
-        <div className="flex pt-2 pb-2 justify-center">
+        <div className="flex flex-wrap justify-center space-x-2 px-8">
              <Link className = {styles.menuElement} href="/">
                 Home
             </Link>
-            <Link className = {styles.menuElement} href="/mousereviews">
+            <Link className = {styles.menuElement} href="/reviews/mouse">
                 Mouse Reviews
             </Link>
-            <Link className = {styles.menuElement} href="/mousepadreviews">
+            <Link className = {styles.menuElement} href="/reviews/mousepad">
                 Mousepad Reviews
             </Link>
             <Link className = {styles.menuElement} href="/about">
@@ -25,5 +25,5 @@ export default function Navbar() {
 }
 
 const styles = {
-    menuElement: "text-1xl font-semibold pr-8 pl-8"
+    menuElement: "grow basis-1/6 p-2 text-1xl text-center font-semibold shadow-lg border-gray-300 bg-gradient-to-t from-gray-300 to-gray-200 hover:from-gray-200 hover:to-gray-300 hover:border-gray-200 hover:shadow-xl"
 }

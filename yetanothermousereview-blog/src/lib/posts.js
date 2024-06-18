@@ -6,27 +6,24 @@ import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
-export function getSortedPostsData() {
-  // Get file names under /posts
+export function getSortedPostsData(category) {
   const fileNames = fs.readdirSync(postsDirectory);
-  const allPostsData = fileNames.map((fileName) => {
-    // Remove ".md" from file name to get id
+  // console.log(fileNames)
+  let allPostsData = fileNames.map((fileName) => {
     const id = fileName.replace(/\.md$/, '');
-
-    // Read markdown file as string
     const fullPath = path.join(postsDirectory, fileName);
+    // console.log(fullPath)
     const fileContents = fs.readFileSync(fullPath, 'utf8');
-
-    // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
-
-    // Combine the data with the id
     return {
       id,
       ...matterResult.data,
     };
   });
-  // Sort posts by date
+  if (category == "mouse" || category == "mousepad") {
+      allPostsData = allPostsData.filter((post) => post.category === category);
+  }
+  console.log(allPostsData)
   return allPostsData.sort((a, b) => {
     if (a.date < b.date) {
       return 1;
@@ -66,4 +63,9 @@ export async function getPostData(id) {
     contentHtml,
     ...matterResult.data,
   };
+}
+
+export async function getSortedPostsByCategory(category) {
+  let data = getSortedPostsData();
+  return data.filter((post) => post.category === category);
 }
