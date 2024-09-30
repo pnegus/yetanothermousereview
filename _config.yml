@@ -3,7 +3,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A website that contains yet another mouse review
 
 url: "https://yetanothermousereview.com"       
-baseurl: "/markdown"  # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 
 github_info:
    username: 'pnegus' 
