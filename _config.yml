@@ -37,6 +37,13 @@ github_info:
  
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-postcss
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false
 
 exclude:
   - Gemfile
