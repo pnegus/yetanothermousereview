@@ -1,123 +1,36 @@
 ---
-layout: nice-text
-title: 'Nice Layout'
+layout: mouse-review
+title: 'Waizowl Cloud OGM V2 Hawkeye Review'
 ---
 
 
 
 
-![]({{site.url}}/assets/img/hey-world.png)  
+![main image]({{site.url}}/images/cloudv2/main.jpg)  
 
 
 
-## Lorem Ipsum
+# Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Waizowl Cloud OGM V2 Hawkeye 8KHz-- or the Cloud V2 as I will henceforth be referring to it as-- is a symmetrical wireless gaming mouse designed for right-handed users. The selling point of this mouse is its shape; it is close copy of the famed Steelseries Sensei.
 
-<a href="https://github.com/DS4PS/barebones-jekyll/blob/master/_layouts/nice-text.html" target = "_blank"> 
-          <button onclick="href=''"> See Page Layout <i class="fa fa-github 2x" id="github_icon"></i> </button>
-</a>
+This mouse was tested on the firmware it was shipped with. I am not aware of any more recent firmware updates.
 
+# Unboxing
 
-<br>
-<hr>
-<br>
+# Shape
 
+Please note that my following thoughts on mouse shape are entirely subjective; my grip style, hand size, and aiming style all influence my preference for shape. For reference, I grip my mouse with an aggressive claw grip and I have 19.5x11cm hands.
 
+The Cloud V2 has a shape that closely resembles the famed Steelseries Sensei. I cannot confirm as to whether it is a true 1:1 clone, but having owned the Nixeus Revel, I can say that it indeed comes quite close.
 
+As such, this shape is quite comfortable to use in claw grip, though I find the mid-hump to be less suited for my particular grip, especially when it comes to micro-adjustments. 
 
-<blockquote>
-<pre>
-<code>
+# Personal experience and thoughts
 
-          ###
-          ###  YAML HEADER FOR PAGE
-          ###  
-          ###  ---
-          ###  layout: nice-text
-          ###  title: 'Nice Layout'
-          ###  ---
-          ###
+I test all my gaming mice in Kovaaks and Valorant with the following settings:
 
-
-          ### 
-          ###  CREATE A DIV FOR PRETTY-TEXT
-          ###
-          ###  div limits formatting only to
-          ###  text between the div tags
-          ###
-
-               &lt;div class="pretty-text">
-
-                 &lt;h1>  &lbrace;&lbrace; page.title }}  </h1>
-
-                          &lbrace;&lbrace; content }}
-
-               &lt;/div>
-
-
-          ###
-          ###  ADD THESE ELEMENTS TO CSS STYLE SHEET
-          ###
-          ###  CSS RULES:
-          ###
-          ###  body &lbrace;...}  applies to everything in body
-          ###  body p &lbrace;...}  only paragraphs in body
-          ###  
-          ###  .pretty-text &lbrace;...} references a class
-          ###  &lt;div class="pretty-text">
-          ###
-          ###  #ryan &lbrace;...} references an id
-          ###  &lt;div id="ryan">
-          ###
-
-
-
-               &lt;style>
-
-               .pretty-text {
-                  margin-top: 100px;
-                  margin-bottom: 100px;
-                  padding-left: 30px;
-                  padding-right: 30px;
-                  text-align: justify;
-               }
-
-               .pretty-text p {
-                   line-height: 1.8
-               }
-
-               .pretty-text h1 {
-                   color: darkred;
-                   font-size: 40px;
-                }
-
-               .pretty-text h2 {
-                   color: darkred;
-                   font-size: 30px;
-                   margin-top: 60px;
-                }
-
-                .pretty-text img {
-                   border: 1px solid #ddd;
-                   border-radius: 8px;
-                   padding: 5px;
-                   width: 400px;
-                   display: block;
-                   margin-left: auto;
-                   margin-right: auto;
-                   width: 50%;
-                   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                               0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                }
-
-                .pretty-text img:hover {
-                   box-shadow: 0 0 3px 1px rgba(0, 140, 186, 0.5);
-                }
-
-                &lt;/style>
-
-</code>
-</pre>
-</blockquote>
+- MotionSync disabled
+- 1KHz polling
+- 400 dpi (251.2 total eDPI in Valorant)
 
