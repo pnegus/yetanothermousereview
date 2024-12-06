@@ -1,7 +1,9 @@
-<ul>
-    { % for link in site.header % }
-        <li{{ current }}>
-            <a href="{{ link.url }}">{{ link.title }}</a> 
-        </li>
-    { % endfor % }
-</ul>
+<header>
+    <ul>
+        { % for link in site.header % }
+            <li>
+                <a href="{{ link.url }}">{{ link.title }}</a> 
+            </li>
+        { % endfor % }
+    </ul>
+</header>
