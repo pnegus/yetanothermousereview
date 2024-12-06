@@ -19,14 +19,19 @@ header:
   - title: About
     url: about
 
+paginate: 5
+paginate_path: "/reviews/page:num/"
+
 # Build settings
  
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-postcss
+  - jekyll-paginate
 
 plugins:
   - jekyll-postcss
+  - jekyll-paginate
 
 postcss:
   cache: false

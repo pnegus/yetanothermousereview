@@ -1,5 +1,5 @@
 ---
-layout: mouse-review
+layout: post
 title: 'Waizowl Cloud OGM V2 Hawkeye Review'
 ---
 
