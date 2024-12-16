@@ -13,13 +13,13 @@ header:
   - title: Home
     url: /
   - title: All Reviews
-    url: reviews
+    url: /reviews
   - title: Mouse Reviews
-    url: mouse_reviews
+    url: /mouse_reviews
   - title: Mousepad Reviews
-    url: mousepad_reviews
+    url: /mousepad_reviews
   - title: About
-    url: about
+    url: /about
 
 paginate: 1
 paginate_path: "/reviews/num/"
