@@ -11,7 +11,7 @@ github_info:
 
 header:
   - title: Home
-    url: index
+    url: /
   - title: Mouse Reviews
     url: mouse_reviews
   - title: Mousepad Reviews
