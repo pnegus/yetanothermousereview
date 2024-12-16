@@ -19,8 +19,7 @@ header:
   - title: About
     url: about
 
-paginate: 5
-paginate_path: "/reviews/page:num/"
+paginate: 1
 
 # Build settings
  
