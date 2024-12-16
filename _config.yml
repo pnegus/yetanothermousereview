@@ -20,6 +20,7 @@ header:
     url: about
 
 paginate: 1
+paginate_path: "/reviews/page:num/"
 
 # Build settings
  
