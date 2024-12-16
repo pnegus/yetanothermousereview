@@ -22,7 +22,7 @@ header:
     url: about
 
 paginate: 1
-paginate_path: "/reviews/page:num/"
+paginate_path: "/reviews/num/"
 
 # Build settings
  
