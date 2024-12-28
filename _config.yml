@@ -28,15 +28,11 @@ paginate_path: "/reviews/num/"
  
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-postcss
   - jekyll-paginate
 
 plugins:
-  - jekyll-postcss
+  - jekyll-postcss-v2
   - jekyll-paginate
-
-postcss:
-  cache: false
 
 exclude:
   - Gemfile
