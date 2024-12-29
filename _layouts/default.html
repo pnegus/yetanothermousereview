@@ -5,7 +5,10 @@
     <body>                                
     {% include header.html %}
     {% if page.type == "front" %}
-        {% include postlist.html %}
+        {% include post_list.html %}
+    {% endif %}
+    {% if page.type == "landing" %}
+        {% include recent_post_list.html %}
     {% endif %}
     {{ content }}                      
     {% include footer.html %}          
