@@ -12,27 +12,20 @@ github_info:
 header:
   - title: Home
     url: /
-  - title: All Reviews
-    url: /reviews
   - title: Mouse Reviews
-    url: /mouse_reviews
+    url: /mouse/
   - title: Mousepad Reviews
-    url: /mousepad_reviews
-  - title: About
-    url: /about
-
-paginate: 1
-paginate_path: "/reviews/num/"
+    url: /mousepad/
+  - title: Audio Reviews
+    url: /audio/
 
 # Build settings
  
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-paginate
 
 plugins:
   - jekyll-postcss-v2
-  - jekyll-paginate
 
 exclude:
   - Gemfile
