@@ -20,7 +20,9 @@ header:
     url: /audio/
 
 # Build settings
- 
+postcss-v2:
+  cache: false
+
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
