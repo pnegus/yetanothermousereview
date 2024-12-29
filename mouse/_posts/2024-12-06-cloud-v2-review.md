@@ -6,7 +6,7 @@ title: 'Waizowl Cloud OGM V2 Hawkeye Review'
 
 
 
-![main image]({{site.url}}/images/cloudv2/main.jpg)  
+![main image]({{site.url}}/assets/img/cloudv2/main.jpg)  
 
 
 
