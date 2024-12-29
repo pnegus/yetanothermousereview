@@ -1,0 +1,9 @@
+<header>
+    <ul class="flex flex-row w-full space-x-4 py-4">
+        {% for link in site.nav %}
+            <li class="text-md">
+                <a href="{{ link.url }}">{{ link.title }}</a> 
+            </li>
+        {% endfor %}
+    </ul>
+</header>
