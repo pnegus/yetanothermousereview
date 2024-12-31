@@ -1248,6 +1248,10 @@ video {
   height: 100dvh;
 }
 
+.h-lvh {
+  height: 100lvh;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -1298,6 +1302,10 @@ video {
 
 .w-dvw {
   width: 100dvw;
+}
+
+.w-lvw {
+  width: 100lvw;
 }
 
 .max-w-max {
