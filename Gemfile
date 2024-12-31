@@ -12,3 +12,5 @@ group :jekyll_plugins do
     gem 'jekyll-postcss-v2'
 end
 gem "webrick", "~> 1.9"
+
+gem 'jekyll-seo-tag'
