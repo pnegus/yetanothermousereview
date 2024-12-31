@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    {% include head.html %}
-    
-    <body class="flex flex-col w-dvw h-dvh p-10">
-        {% include header.html %}                          
-        {% include nav.html %}
-        {% if page.type == "front" %}
-            {% include post_list.html %}
-        {% endif %}
-        {% if page.type == "landing" %}
-            {% include recent_post_list.html %}
-        {% endif %}
-        {{ content }}                      
-        {% include footer.html %}          
-    </body>                               
+{% include head.html %}
+
+<body class="flex flex-col w-dvw h-dvh p-10 lg:px-16">
+    {% include header.html %}                          
+    {% include nav.html %}
+    {% if page.type == "front" %}
+        {% include post_list.html %}
+    {% endif %}
+    {% if page.type == "landing" %}
+        {% include recent_post_list.html %}
+    {% endif %}
+    {{ content }}                      
+    {% include footer.html %}          
+</body>                               
 
 </html>
