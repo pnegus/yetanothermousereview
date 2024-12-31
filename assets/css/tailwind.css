@@ -1252,6 +1252,10 @@ video {
   height: 100lvh;
 }
 
+.max-h-none {
+  max-height: none;
+}
+
 .min-h-full {
   min-height: 100%;
 }
