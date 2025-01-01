@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="w-dvw h-dvh p-10 lg:px-16" lang="en">
 {% include head.html %}
 
-<body class="w-full h-full p-10 lg:px-16">
+<body class="flex flex-col space-around h-full">
     {% include header.html %}                          
     {% include nav.html %}
     {% if page.type == "front" %}
@@ -11,7 +11,7 @@
     {% if page.type == "landing" %}
         {% include recent_post_list.html %}
     {% endif %}
-    {{ content }}                      
+    {{ content }} 
     {% include footer.html %}          
 </body>                               
 

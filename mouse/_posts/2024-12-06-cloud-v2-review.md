@@ -2,9 +2,8 @@
 layout: post
 title: 'Waizowl Cloud OGM V2 Hawkeye Review'
 main_image: main.jpg
+main_caption: Waizowl Cloud V2 on LGG Venus Pro
 ---
-
-![main image]({{site.url}}/assets/img/{{page.slug}}/main.jpg)  
 
 The Waizowl Cloud OGM V2 Hawkeye 8KHz-- or the Cloud V2 as I will henceforth be referring to it as-- is a symmetrical wireless gaming mouse designed for right-handed users. The selling point of this mouse is its shape; it is close copy of the famed Steelseries Sensei.
 
