@@ -2,11 +2,9 @@
 <html class="w-dvw h-dvh" lang="en">
 {% include head.html %}
 
-<body class="flex flex-col space-around h-full">
+<body>
     {% include header.html %}     
-    <div class="py-1"></div>                     
     {% include nav.html %}
-    <div class="py-1"></div>
     {% if page.type == "front" %}
         {% include post_list.html %}
     {% endif %}
