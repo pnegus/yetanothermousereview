@@ -1,4 +1,4 @@
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 h-full">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-y-4 auto-rows-min	h-full">
   {% for post in site.posts %}
     {% for category in post.categories %}
       {% assign page_stripped = page.dir | remove: '/' %}
