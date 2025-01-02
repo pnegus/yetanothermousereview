@@ -1,10 +1,10 @@
 <a class="space-y-2" href="{{site.baseurl}}{{ post.url }}">
     <img src="{{site.baseurl}}/assets/img/{{post.slug}}/{{post.main_image}}" alt="{{ post.title }}" class="h-36 w-full object-cover">
     <div class="flex flex-row justify-between">
-        <h3>{{ post.title}}</h3>
-        <div class="text-sm text-gray-400">{{post.date | date: "%B %-d, %Y"}}</div>
+        <h2 class="font-semibold">{{ post.title}}</h2>
+        <div class="text-sm">{{post.date | date: "%B %-d, %Y"}}</div>
     </div>
-    <p class="text-sm text-gray-400">
+    <p class="text-sm">
         {{ post.content | markdownify | strip_html | truncatewords: 30 }}
     </p>
 </a>

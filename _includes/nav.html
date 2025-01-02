@@ -1,8 +1,12 @@
-<header class="sticky top-0 flex w-full items-center justify-between bg-white bg-opacity-80">
-    <ul class="flex flex-row w-full space-x-4">
+<header class="sticky top-0 w-full bg-white bg-opacity-80">
+    <ul class="flex flex-row">
         {% for link in site.nav %}
-            <li class="h-full py-4 text-md hover:bg-gray-500 hover:bg-opacity-10">
-                <a href="{{ link.url }}">{{ link.title }}</a> 
+            <li class="">
+                <a href="{{ link.url }}">
+                    <div class="pe-4 py-4 hover:bg-gray-500 hover:bg-opacity-10">
+                        {{ link.title }}
+                    </div>
+                </a> 
             </li>
         {% endfor %}
     </ul>
