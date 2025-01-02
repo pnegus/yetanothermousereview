@@ -1,4 +1,4 @@
-This is the source code for my mouse review site, yetanothermousereview. 
+This is the source code for my mouse review site, yetanothermousereview, where I host reviews of gaming mice, mousepads, and headphones.
 
 # A couple of notes for working with Jekyll and Tailwind:
 
