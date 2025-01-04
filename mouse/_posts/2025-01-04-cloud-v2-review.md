@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Waizowl Cloud OGM V2 Hawkeye Review'
+title: 'Welcome to Yet Another Mouse Review'
 main_image: main.jpg
 main_caption: Waizowl Cloud V2 on LGG Venus Pro
 ---
