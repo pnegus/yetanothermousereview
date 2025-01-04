@@ -5,11 +5,18 @@ main_image: main.png
 main_caption: The Rating System of Yet Another Mouse Review
 ---
 
-I like simple ratings. But ratings can be hard. Too granular, and you end up with reviews that are overly glowing, with ratings that average a 7.5 or 8. Too simple and you end up just... not rating things correctly.
+Ratings are hard. And lots of rating systems kind of suck. When everything is rated between 7.5 and 8.5, how do you actually differentiate anything? What about products that are highly niche but still have a place? 
 
-# The Rating System
+Answer: just rate more, dawg.
 
-To try and minimize the headache of the everlasting pile of crap that is rating things, as well as keeping my readers from wanting to yell at me on the internet for my subjective opinions, I will be rating mice from 1-3 stars in the following categories:
+# The Rating System, at a high level
+
+Every product reviewed on this site will have ***two*** **overall scores**: an **objective** score and a **subjective** (preference) score. This score is taken as the floor of the average (to the nearest 1/2 star) score of the categories defined in the following subsections.
+
+For example, a mouse I do not personally enjoy using might have low subjective scores. However, if it is built well and has great sensor performance, it will still have a good objective score. This gives you, the reader and potential consumer, a better way to judge the merits of a product.
+
+
+## Categories for Mice
 
 - Build Quality (objective)
 
@@ -23,7 +30,22 @@ To try and minimize the headache of the everlasting pile of crap that is rating 
 
 - Value (subjective)
 
-Consequently, every product reviewed on this site will have ***two*** **overall scores**: an **objective** score and a **subjective** (preference) score.
+## Categories for Mousepads
 
-For example, a mouse I do not personally enjoy using might have low subjective scores. However, if it is built well and has great sensor performance, it will still have a good objective score. This gives you, the reader and potential consumer, a better way to judge the merits of a product.
+- Base Grippiness
 
+- Build quality
+
+- Texture (subjective)
+
+- Ingame Performance (subjective)
+
+## Categories for Audio
+
+- Build quality
+
+- Comfort
+
+- Tonality (subjective)
+
+- Smoothness (subjective)
