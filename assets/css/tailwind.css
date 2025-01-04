@@ -1060,6 +1060,16 @@ video {
   margin-right: 1rem;
 }
 
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -1277,6 +1287,15 @@ video {
 }
 
 .hover\:bg-opacity-5:hover {
+  --tw-bg-opacity: 0.05;
+}
+
+.focus\:bg-black:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.focus\:bg-opacity-5:focus {
   --tw-bg-opacity: 0.05;
 }
 
