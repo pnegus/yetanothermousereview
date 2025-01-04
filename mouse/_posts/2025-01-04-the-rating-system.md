@@ -13,7 +13,7 @@ Answer: just rate more, dawg.
 
 Every product reviewed on this site will have ***two*** **overall scores**: an **objective** score and a **subjective** (preference) score. This score is taken as the floor of the average (to the nearest 1/2 star) score of the categories defined in the following subsections.
 
-For example, a mouse I do not personally enjoy using might have low subjective scores. However, if it is built well and has great sensor performance, it will still have a good objective score. This gives you, the reader and potential consumer, a better way to judge the merits of a product.
+For example, a mouse I do not personally enjoy using might have low subjective scores. However, if it is built well and has great sensor performance, it will still have a good objective score. This hopefully gives you, the reader and potential consumer, an optimal way to judge the merits of a product.
 
 
 ## Categories for Mice
