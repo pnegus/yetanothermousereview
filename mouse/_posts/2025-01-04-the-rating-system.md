@@ -36,9 +36,13 @@ For example, a mouse I do not personally enjoy using might have low subjective s
 
 - Build quality
 
+- Sweat performance
+
 - Texture (subjective)
 
 - Ingame Performance (subjective)
+
+- Value (subjective)
 
 ## Categories for Audio
 
@@ -49,3 +53,5 @@ For example, a mouse I do not personally enjoy using might have low subjective s
 - Tonality (subjective)
 
 - Smoothness (subjective)
+
+- Value (subjective)
