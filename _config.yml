@@ -1,6 +1,5 @@
 title: Yet Another Mouse Review
-description: >- # this means to ignore newlines until "baseurl:"
-  A website that contains yet another mouse review
+description: A website dedicated to gaming mouse, mousepad, and audio reviews.
 tagline: A website dedicated to gaming mouse, mousepad, and audio reviews.
 url: "https://yetanothermousereview.com"       
 baseurl: ""  # the subpath of your site, e.g. /blog
