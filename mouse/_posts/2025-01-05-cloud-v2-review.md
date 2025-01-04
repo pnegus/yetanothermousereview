@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Welcome to Yet Another Mouse Review'
+title: 'Waizowl Cloud V2 Review'
 main_image: main.jpg
 main_caption: Waizowl Cloud V2 on LGG Venus Pro
 ---
