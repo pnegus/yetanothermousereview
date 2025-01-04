@@ -1,8 +1,5 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 lg:px-4 auto-rows-min	h-full">
   {% for post in site.posts %}
-    {% if forloop.index > 3 %}
-      {% break %}
-    {% endif %}
     {% include post_tile.html %}
   {% endfor %}
 </div>
