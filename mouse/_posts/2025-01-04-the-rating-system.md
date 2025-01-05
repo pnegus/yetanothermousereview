@@ -11,9 +11,18 @@ Answer: just rate more, dawg.
 
 # The Rating System, at a high level
 
-Every product reviewed on this site will have ***two*** **overall scores**: an **objective** score and a **subjective** (preference) score. This score is taken as the floor of the average (to the nearest 1/2 star) score of the categories defined in the following subsections.
+Every product reviewed on this site will have ***two*** **overall scores**: an **objective** score and a **subjective** (preference) score. 
 
-For example, a mouse I do not personally enjoy using might have low subjective scores. However, if it is built well and has great sensor performance, it will still have a good objective score. This hopefully gives you, the reader and potential consumer, an optimal way to judge the merits of a product.
+This score is taken as the floor of the average (to the nearest 1/2 star) score of the categories defined in the following subsections.
+
+Speaking of the following subsections, each subsection will receive a score from 0-3 stars:
+
+- 0 stars: cannot recommend this product.
+- 1 stars: can recommend this product, but does not stand out.
+- 2 stars: excellent. A solid recommendation.
+- 3 stars: the best of the best.
+
+A mouse I do not personally enjoy using might have a low overall subjective score. However, if it is built well and has great sensor performance, it will still have a good objective score. This hopefully gives you, the reader and potential consumer, an optimal way to judge the merits of a product.
 
 
 ## Categories for Mice
@@ -22,7 +31,13 @@ For example, a mouse I do not personally enjoy using might have low subjective s
 
 - Button Quality (objective)
 
-- Sensor and Click Performance (objective)
+- Mouse Skate Quality (objective)
+
+- Sensor Performance and Click Latency (objective)
+
+- Software (objective)
+
+- Clickfeel (subjective)
 
 - Shape (subjective)
 
