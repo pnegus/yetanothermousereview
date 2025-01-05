@@ -1,21 +1,15 @@
 ---
 layout: post
-title: 'Endgame Gear XM2W 4KHz Review'
+title: 'Vaxee X Ninjutso Sora Review'
 main_image: main.jpg
-main_caption: XM2W on a cat deskmat
+main_caption: Vaxee X Sora on a cat deskmat
 ---
 
-The Endgame Gear XM2W 4KHz is a symmetrical, medium-sized gaming mouse designed for claw grip. It is the successor to the XM1/R, and has a PAW3395 sensor. This mouse was tested on the latest firmware (1.06) with the following settings:
+The Vaxee X Ninjutso Sora is a medium-sized symmetrical mouse designed for claw grip. It was tested with the latest available firmware (the one shipped out of the box), and retails for US $139.99.
 
-- 800 DPI
-- 1000hz
-- SPDT OFF
-- Slam Click Filter ON
-- Motion Jitter Filter ON
+## Build Quality | Objective
 
-## Build Quality
-
-Endgame Gear is generally known for having excellent build quality and quality control, and that extends to my white unit. There is no creaking, rattling, or flexing to be had with the shell of the XM2W. 
+Vaxee, like Endgame Gear, is 
 
 Furthermore-- and this is a rarity-- the XM2W base is more or less perfectly flat. You should have no problem using this mouse on a glass mousepad.
 
@@ -23,15 +17,39 @@ Build Quality Rating: ★★★ **Top Tier**
 
 ## Button Quality
 
-Button quality on the XM2W is not quite as stellar as its build, but still good nonetheless. There is a small amount of pretravel on LMB, and the side buttons are reasonably tactile and clicky. Worst of the bunch is the scroll wheel click-- while while not bad by any means-- has a slight amount of inconsistent pretravel depending on the wheel position (a common issue due to scroll wheels not always having straight stems) and consequently can be more difficult to press at times. 
+Button quality on the XM2W is not quite as stellar as its build, but still good nonetheless. There is a small amount of pretravel on LMB, and the side buttons are reasonably tactile and clicky. Worst of the bunch is the scroll wheel click-- which while not bad by any means-- has a slight amount of inconsistent pretravel depending on the wheel position (a common issue due to scroll wheels not always having straight stems) and consequently can be more difficult to press at times. 
 
 The scroll wheel is excellent, with well defined steps. 
 
 Button Quality Rating: ★☆☆ **Good**
 
-## Sensor Performance
+## Mouse Feet
 
-Shown below are Interval vs. Time graphs (a graph of the amount of time elapsed between each piece of sensor data received) and XSum vs. Time graphs (a graph of the cumulative number of x-direction sensor counts received, which allows for measuring sensor latency against another test subject-- in this case, a Pulsefire Haste 2), taken using Mousetester 1.4
+The XM2W ships with one set of smaller mouse feet installed, and another set of larger feet in the box.
+
+Unfortunately, neither are of exceptional quality. Glide is quite fast, but not particularly smooth, and the mouse feet suffer from excessive x/y deviation. This deviation should eventually go away with significant use, but at brief inspection these stock skates are harder than most high quality aftermarket offerings, which means that you will be dealing with x/y deviation for quite a while if you decide to stick with the stock mouse feet. 
+
+Overall, these are serviceable mouse feet, but I recommend finding aftermarket options.
+
+Mouse Feet Rating: ★☆☆ **Good**
+
+## Coating
+
+On release, the XM1/R set the benchmark for gaming mouse coatings. Even though half a decade has passed since, it remains a benchmark for top-tier mouse coatings. I'm pleased that this coating remains unchanged with the XM2W.
+
+Compared to my Vaxee XE-S which has the colored, non-soft-touch coating, it is slightly grippier when dry and significantly grippier when your hands are sweaty. 
+
+**Which is to say that it remains one of the grippiest mice on the market in all conditions**. 
+
+One point of concern is wear on the coating of white mice. My white XM1R showed some minor signs of wear and discoloration over time. Assuming that the coating composition here remains unchanged, this may also be a potential issue.
+
+Coating rating: ★★★ **Top Tier**
+
+## Sensor Performance and Click Latency
+
+Shown below are Interval vs. Time graphs (a graph of the amount of time elapsed between each piece of sensor data received) and XSum vs. Time graphs (a graph of the cumulative number of x-direction sensor counts received, which allows for measuring sensor latency against another test subject-- in this case, a Pulsefire Haste 2), taken using Mousetester 1.4 and MouseComparator. 
+
+*Note that these plots are a little noiser than they will be in future reviews, as I did not set core priorities/affinities when taking these measurements.*
 
 Interval vs. Time (1KHz)            |  Motion Latency vs Pulsefire Haste 2 (Blue)
 :-------------------------:|:-------------------------:
@@ -48,17 +66,15 @@ Interval vs. Time (4KHz)            |  Motion Latency vs Pulsefire Haste 2 (Blue
 
 The XM2W 4K is capable of three polling rates: 1000Hz, 2000Hz, and 4000Hz.
 
-Save for some elevated noise, polling is stable at all polling rates.
+Save for bursts of variance in polling, polling is stable at all polling rates.
 
 Interestingly, there is no significant difference in sensor latency across all polling rates. Sensor latency in and of itself is stellar-- matching the Pulsefire Haste 2-- making it the fastest wireless mouse I have ever tested.
 
-Sensor Performance Rating: ★★★ **Top Tier**
+When it came to click latency, I performed bump testing against the Pulsefire Haste 2. The XM2W had approximately 3.5-4ms less click latency without the SPDT modes enabled. With GX speed mode, click latency is reduced further, but is not recommended to be used due to the risk of accidental clicks.
 
-## Click Latency
+In any case, this is a phenomenal result, though you will almost certainly not notice a difference if you already have a modern gaming mouse.
 
-Testing TBD using Nvidia Reflex. But in general, click latency is extremely low, with zero noticeable delay ingame.
-
-Click Latency Rating: ★★★ **Top Tier**
+Sensor Performance and Click Latency Rating: ★★★ **Top Tier**
 
 ## Software
 
@@ -69,15 +85,6 @@ It is an extremely lightweight application that is similar in functionality to s
 As such, I personally think that this software-- as ugly as it is-- is the absolute gold standard for mouse configuration software. Although one might argue that a web app would be even better, in the (relatively unlikely) event that the mouse company providing said web app goes defunct, one would be completely DOA. Not so with light executables such as that provided by EGG.
 
 Software Rating: ★★★ **Top Tier**
-
-
-## Mouse Feet
-
-The XM2W ships with one set of smaller mouse feet installed, and another set of larger feet in the box.
-
-Unfortunately, neither are of commendable quality. Glide is quite fast, but not particularly smooth, and the mouse feet suffer from excessive x/y deviation. This deviation should eventually go away with significant use, but at brief inspection these stock skates are harder than most high quality aftermarket offerings, which means that you will be dealing with x/y deviation for quite a while if you decide to stick with the stock mouse feet. 
-
-Mouse Feet Rating: ☆☆☆ **Cannot Recommend**
 
 ## Clickfeel
 

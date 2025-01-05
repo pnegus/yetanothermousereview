@@ -11,11 +11,11 @@ Answer: just rate more, dawg.
 
 # The Rating System, at a high level
 
-Every product reviewed on this site will have ***two*** **overall scores**: an **objective** score and a **subjective** (preference) score. 
+Every product reviewed on this site will have ***three*** **overall scores**: an **objective** score, a **subjective** (preference) score, and a **value** score.
 
-This score is taken as the floor of the average (to the nearest 1/2 star) score of the categories defined in the following subsections.
+Except for the value score-- which is wholly my personal opinion-- each score is taken as the floor of the average (to the nearest 1/2 star) score of the categories defined in the subsections at the bottom of the page.
 
-Speaking of the following subsections, each subsection will receive a score from 0-3 stars:
+Each subsection is scored on a scale from 0-3:
 
 - 0 stars: cannot recommend this product.
 - 1 stars: can recommend this product, but does not stand out.
@@ -24,28 +24,31 @@ Speaking of the following subsections, each subsection will receive a score from
 
 A mouse I do not personally enjoy using might have a low overall subjective score. However, if it is built well and has great sensor performance, it will still have a good objective score. This hopefully gives you, the reader and potential consumer, an optimal way to judge the merits of a product.
 
-
 ## Categories for Mice
 
-- Build Quality (objective)
+### Objective
 
-- Button Quality (objective)
+- Build Quality 
 
-- Mouse Skate Quality (objective)
+- Button Quality
 
-- Sensor Performance and Click Latency (objective)
+- Coating
 
-- Software (objective)
+- Mouse feet
 
-- Clickfeel (subjective)
+- Sensor Performance and Click Latency 
 
-- Shape (subjective)
+### Subjective 
 
-- Ingame performance (subjective)
+- Shape 
 
-- Value (subjective)
+- Ingame performance 
+
+- Software 
 
 ## Categories for Mousepads
+
+### Objective
 
 - Base Grippiness
 
@@ -53,20 +56,22 @@ A mouse I do not personally enjoy using might have a low overall subjective scor
 
 - Sweat performance
 
-- Texture (subjective)
+### Subjective
 
-- Ingame Performance (subjective)
+- Texture 
 
-- Value (subjective)
+- Ingame Performance 
 
 ## Categories for Audio
+
+### Objective
 
 - Build quality
 
 - Comfort
 
-- Tonality (subjective)
+### Subjective
 
-- Smoothness (subjective)
+- Tonality
 
-- Value (subjective)
+- Smoothness
