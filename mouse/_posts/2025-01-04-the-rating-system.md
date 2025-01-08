@@ -68,10 +68,12 @@ A mouse I do not personally enjoy using might have a low overall subjective scor
 
 - Build quality
 
+### Subjective
+
 - Comfort
 
-### Subjective
+- Ingame Performance
 
 - Tonality
 
-- Smoothness
+- Smoothness/Detail Retrieval
