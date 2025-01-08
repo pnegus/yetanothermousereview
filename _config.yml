@@ -18,8 +18,6 @@ nav:
     url: /mousepad/
   - title: Audio Reviews
     url: /audio/
-  - title: Review Schedule and Updates
-    url: /review_schedule
 
 # Build settings
 postcss:
