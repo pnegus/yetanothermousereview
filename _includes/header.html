@@ -3,7 +3,9 @@
         <p class="md:text-3xl text-xl font-light uppercase pr-2">
             <b class="font-semibold">YET ANOTHER</b>
             Mouse Review
-            <h1 class="border-l-2 border-black pl-2 md:text-2xl text-lg font-light">{{page.title}}</h1>
+            {% if page.type == 'front' or page.type == 'landing'%}
+                <h1 class="border-l-2 border-black pl-2 md:text-2xl text-lg font-light">{{page.title}}</h1>
+            {% endif %}
         </p> 
         <img class="h-14" src="{{site.url}}/assets/img/site/logo.png" alt="Logo" class="logo">
     </a> 
