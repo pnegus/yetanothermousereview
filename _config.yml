@@ -12,11 +12,11 @@ github_info:
 nav:
   - title: Home
     url: /
-  - title: Mouse Reviews
+  - title: Mouse
     url: /mouse/
-  - title: Mousepad Reviews
+  - title: Mousepad
     url: /mousepad/
-  - title: Audio Reviews
+  - title: Audio
     url: /audio/
 
 # Build settings
