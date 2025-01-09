@@ -1178,6 +1178,19 @@ video {
   border-width: 2px;
 }
 
+.border-r-2 {
+  border-right-width: 2px;
+}
+
+.border-l-2 {
+  border-left-width: 2px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
@@ -1234,6 +1247,14 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -1322,6 +1343,11 @@ video {
   .md\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .md\:text-2xl {
