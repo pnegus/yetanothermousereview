@@ -72,8 +72,7 @@ A mouse I do not personally enjoy using might have a low overall subjective scor
 
 - Comfort
 
+- Sonics
+
 - Ingame Performance
 
-- Tonality
-
-- Smoothness/Detail Retrieval
