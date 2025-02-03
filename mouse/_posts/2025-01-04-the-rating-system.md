@@ -13,7 +13,7 @@ Answer: just rate more, dawg.
 
 Every product reviewed on this site will have ***three*** **overall scores**: an **objective** score, a **subjective** (preference) score, and a **value** score.
 
-Except for the value score-- which is wholly my personal opinion-- each score is taken as the floor of the average (to the nearest 1/2 star) score of the categories defined in the subsections at the bottom of the page.
+Except for the value score-- which is wholly my personal opinion-- each score is taken as the average score of the categories defined in the subsections at the bottom of the page to the nearest whole star.
 
 Each subsection is scored on a scale from 0-3:
 
@@ -40,9 +40,11 @@ A mouse I do not personally enjoy using might have a low overall subjective scor
 
 ### Subjective 
 
-- Shape 
+- Shape and Comfort
 
-- Ingame performance 
+- Fortnite Aim Performance
+
+- Valorant Aim Performance
 
 - Software 
 
