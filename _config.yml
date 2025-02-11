@@ -18,6 +18,8 @@ nav:
     url: /mousepad/
   - title: Audio
     url: /audio/
+  - title: About
+    url: /about/
 
 # Build settings
 postcss:
