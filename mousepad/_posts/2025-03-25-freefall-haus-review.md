@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mousepad_review
 title: 'Freefall X Haus Mousepad Review'
 main_image: main.jpg
 main_caption: Freefall X Haus Mousepad
