@@ -3,8 +3,11 @@ layout: mousepad_review
 title: 'Freefall X Haus Mousepad Review'
 main_image: main.jpg
 main_caption: Freefall X Haus Mousepad
-rating_obj: 8.375
-rating_sub: 5.6
+rating_base_obj: 10
+rating_build_obj: 6
+rating_sweat_obj: 5
+rating_game_subj: 5
+rating_texture_subj: 5
 rating_val: ★☆☆
 ---
 

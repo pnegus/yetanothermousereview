@@ -2,11 +2,24 @@
 layout: default
 type: post
 ---
-{% assign rating_obj_sum = page.rating_build_obj | plus: page.rating_button_obj %}
-{% assign rating_obj_avg = rating_obj_sum | divided_by: 10.0 %}
 
-{% assign rating_subj_sum = page.rating_build_obj | plus: page.rating_button_obj %}
-{% assign rating_subj_avg = rating_subj_sum | divided_by: 10.0 %}
+{% assign rating_base_obj_total = page.rating_base_obj | times: 2.0 %}
+{% assign rating_build_obj_total = page.rating_build_obj | times: 1.0 %}
+{% assign rating_sweat_obj_total = page.rating_sweat_obj | times: 1.0 %}
+
+{% assign rating_obj_avg = rating_base_obj_total | 
+    plus: rating_build_obj_total | 
+    plus: rating_sweat_obj_total | 
+    divided_by: 4.0 
+%}
+
+{% assign rating_game_subj_total = page.rating_game_subj | times: 2.0 %}
+{% assign rating_texture_subj_total = page.rating_texture_subj | times: 1.0 %}
+
+{% assign rating_subj_avg = rating_game_subj_total | 
+    plus: rating_texture_subj_total | 
+    divided_by: 3.0
+%}
 
 
 <div class="flex flex-col items-center">

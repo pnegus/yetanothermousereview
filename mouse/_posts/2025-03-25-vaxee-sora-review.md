@@ -3,13 +3,19 @@ layout: post
 title: 'Vaxee X Ninjutso Sora Review'
 main_image: main.jpg
 main_caption: Vaxee X Sora on a cat deskmat
-rating_obj: ★★☆
-rating_sub: ★★★
-rating_val: ★☆☆
+rating_build_obj: 10
+rating_button_obj: 6
+rating_feet_obj: 5
+rating_coating_obj: 9
+rating_sensor_obj: 9
+rating_shape_subj: 6
+rating_fortnite_subj: 3
+rating_valorant_subj: 6
+rating_software_subj: 9
+rating_val: N/A
 ---
 
 The Vaxee X Ninjutso Sora is a medium-sized symmetrical mouse designed for claw grip. It was tested with the latest available firmware (the one shipped out of the box), and retails for US $139.99 excl. shipping.
-
 
 
 ## Build Quality
