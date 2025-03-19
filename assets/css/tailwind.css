@@ -1136,6 +1136,10 @@ video {
   max-width: none;
 }
 
+.table-auto {
+  table-layout: auto;
+}
+
 .auto-rows-min {
   grid-auto-rows: min-content;
 }
@@ -1360,6 +1364,10 @@ video {
   --tw-bg-opacity: 0.05;
 }
 
+.prose-p\:text-justify :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  text-align: justify;
+}
+
 @media (min-width: 768px) {
   .md\:block {
     display: block;
@@ -1407,6 +1415,10 @@ video {
   .lg\:px-64 {
     padding-left: 16rem;
     padding-right: 16rem;
+  }
+
+  .lg\:text-center {
+    text-align: center;
   }
 
   .lg\:text-4xl {

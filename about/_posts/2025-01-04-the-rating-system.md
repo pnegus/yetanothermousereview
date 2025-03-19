@@ -34,55 +34,56 @@ The value score will be on a scale of 0-3 stars:
 
 ### Objective
 
-- Build Quality \| Weight: 3
-
-- Button Quality \| Weight: 2
-
-- Mouse feet \| Weight: 1
-
-- Coating \| Weight: 1
-
-- Sensor Performance and Click Latency \| Weight: 1
+| Category                             | Weight |
+|--------------------------------------|--------|
+| Build Quality                        | 3      |
+| Button Quality                       | 2      |
+| Mouse Feet                           | 1      |
+| Coating                              | 1      |
+| Sensor Performance and Click Latency | 1      |
 
 ### Subjective 
 
-- Shape and Comfort \| Weight: 3
-
-- Fortnite Aim Performance \| Weight: 2
-
-- Valorant Aim Performance \| Weight: 2
-
-- Software \| Weight: 1
+| Category                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀         | Weight |
+|--------------------------------------|--------|
+| Shape and Comfort                      | 3      |
+| Fortnite Aim Performance                   | 2      |
+| Valorant Aim Performance                          | 1      |
+| Software                              | 1      |
 
 ## Categories for Mousepads
 
 ### Objective
 
-- Base Grippiness \| Weight: 2
+| Category                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀         | Weight |
+|--------------------------------------|--------|
+| Base Grippiness                     | 2      |
+| Build Quality                 | 1      |
+| Sweat Performance                        | 1      |
 
-- Build quality \| Weight: 1
-
-- Sweat performance \| Weight: 1
 
 ### Subjective
 
-- Ingame Performance \| Weight: 2
-
-- Texture \| Weight: 1 
+| Category                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀         | Weight |
+|--------------------------------------|--------|
+| Ingame Performance                     | 2      |
+| Texture                 | 1      |
 
 ## Categories for Audio
 
 ### Objective
 
-- Build quality \| Weight: 2
-
-- Cable quality \| Weight: 1
+| Category                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀         | Weight |
+|--------------------------------------|--------|
+| Build Quality                     | 2      |
+| Cable Quality                  | 1      |
 
 ### Subjective
 
-- Comfort \| Weight: 3
+| Category                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀         | Weight |
+|--------------------------------------|--------|
+| Comfort                     | 3      |
+| Sonics                | 3      |
+| Ingame Performance                         | 1      |
 
-- Sonics \| Weight: 3
-
-- Ingame Performance \| Weight: 1
 
