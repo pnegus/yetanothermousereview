@@ -2,11 +2,35 @@
 layout: default
 type: post
 ---
-{% assign rating_obj_sum = page.rating_build_obj | plus: page.rating_button_obj %}
-{% assign rating_obj_avg = rating_obj_sum | divided_by: 10.0 %}
+{% assign rating_build_obj_total = page.rating_build_obj | times: 3.0 %}
 
-{% assign rating_subj_sum = page.rating_build_obj | plus: page.rating_button_obj %}
-{% assign rating_subj_avg = rating_subj_sum | divided_by: 10.0 %}
+{% assign rating_button_obj_total = page.rating_button_obj | times: 2.0 %}
+
+{% assign rating_feet_obj_total = page.rating_feet_obj | times: 1.0 %}
+
+{% assign rating_coating_obj_total = page.rating_coating_obj | times: 1.0 %}
+
+{% assign rating_sensor_obj_total = page.rating_sensor_obj | times: 1.0 %}
+
+{% assign rating_obj_avg = rating_build_obj_total | 
+    plus: rating_button_obj_total | 
+    plus: rating_feet_obj_total | 
+    plus: rating_coating_obj_total | 
+    plus: rating_sensor_obj_total |
+    divided_by: 8.0 
+%}
+
+{% assign rating_shape_subj_total = page.rating_shape_subj | times: 3.0 %}
+{% assign rating_fortnite_subj_total = page.rating_fortnite_subj | times: 2.0 %}
+{% assign rating_valorant_subj_total = page.rating_valorant_subj | times: 2.0 %}
+{% assign rating_software_subj_total = page.rating_software_subj | times: 1.0 %}
+
+{% assign rating_subj_avg = rating_shape_subj_total | 
+    plus: rating_fortnite_subj_total | 
+    plus: rating_valorant_subj_total | 
+    plus: rating_software_subj_total |
+    divided_by: 8.0
+%}
 
 
 <div class="flex flex-col items-center">
@@ -25,10 +49,10 @@ type: post
     <div class="flex flex-col w-full lg:px-64 md:px-16 px-8 text-4xl font-bold text-center py-8 drop-shadow-2xl" >
         <ul>
             <li class="flex flex-row justify-between py-4">
-                Overall Objective Score:  <div>{{ rating_obj_avg }} / 10</div>
+                Weighted Objective Score:  <div>{{ rating_obj_avg }} / 10</div>
             </li>
             <li class="flex flex-row justify-between py-4">
-                Overall Subjective Score: <div>{{ rating_subj_avg }} / 10</div>
+                Weighted Subjective Score: <div>{{ rating_subj_avg }} / 10</div>
             </li>
             <li class="flex flex-row justify-between py-4">
                 Value Score: <div>{{ page.rating_val }}</div>

@@ -38,9 +38,9 @@ The value score will be on a scale of 0-3 stars:
 
 - Button Quality \| Weight: 2
 
-- Coating \| Weight: 1
-
 - Mouse feet \| Weight: 1
+
+- Coating \| Weight: 1
 
 - Sensor Performance and Click Latency \| Weight: 1
 
