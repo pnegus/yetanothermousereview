@@ -2,12 +2,23 @@
 layout: default
 type: post
 ---
-{% assign rating_obj_sum = page.rating_build_obj | plus: page.rating_button_obj %}
-{% assign rating_obj_avg = rating_obj_sum | divided_by: 10.0 %}
+{% assign rating_build_obj_total = page.rating_build_obj | times: 2.0 %}
+{% assign rating_cable_obj_total = page.rating_cable_obj | times: 1.0 %}
 
-{% assign rating_subj_sum = page.rating_build_obj | plus: page.rating_button_obj %}
-{% assign rating_subj_avg = rating_subj_sum | divided_by: 10.0 %}
+{% assign rating_obj_avg = rating_build_obj_total | 
+    plus: rating_cable_obj_total | 
+    divided_by: 3.0
+%}
 
+{% assign rating_comfort_subj_total = page.rating_comfort_subj | times: 3.0 %}
+{% assign rating_sonics_subj_total = page.rating_sonics_subj | times: 3.0 %}
+{% assign rating_ingame_subj_total = page.rating_ingame_subj | times: 1.0 %}
+
+{% assign rating_subj_avg = rating_comfort_subj_total | 
+    plus: rating_sonics_subj_total | 
+    plus: rating_ingame_subj_total | 
+    divided_by: 7.0
+%}
 
 <div class="flex flex-col items-center">
     <h1 class="text-center text-4xl pt-2 pb-8 font-bold lg:text-4xl"> 
