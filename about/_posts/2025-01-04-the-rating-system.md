@@ -30,7 +30,7 @@ The value score will be on a scale of 0-3 stars:
 - ★★☆ 2 stars: an excellent recommendation for the price
 - ★★★ 3 stars: a complete steal
 
-## Categories for Mice
+## Categories and Weights for Mice
 
 ### Objective
 
@@ -51,7 +51,7 @@ The value score will be on a scale of 0-3 stars:
 | Valorant Aim Performance                          | 1      |
 | Software                              | 1      |
 
-## Categories for Mousepads
+## Categories and Weights for Mousepads
 
 ### Objective
 
@@ -69,7 +69,7 @@ The value score will be on a scale of 0-3 stars:
 | Ingame Performance                     | 2      |
 | Texture                 | 1      |
 
-## Categories for Audio
+## Categories and Weights for Audio
 
 ### Objective
 
