@@ -25,7 +25,7 @@ A mouse I do not personally enjoy using might have a low overall subjective scor
 
 The value score will be on a scale of 0-3 stars:
 
-- ☆☆☆ 0 stars: not a value recommend
+- ☆☆☆ 0 stars: N/A; not a value recommend
 - ★☆☆ 1 stars: a reasonable, solid recommendation for the price
 - ★★☆ 2 stars: an excellent recommendation for the price
 - ★★★ 3 stars: a complete steal
