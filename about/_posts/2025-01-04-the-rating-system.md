@@ -37,18 +37,17 @@ The value score will be on a scale of 0-3 stars:
 | Category                             | Weight |
 |--------------------------------------|--------|
 | Build Quality                        | 3      |
+| Sensor Performance and Click Latency | 3      |
 | Button Quality                       | 2      |
+| Coating                              | 2      |
 | Mouse Feet                           | 1      |
-| Coating                              | 1      |
-| Sensor Performance and Click Latency | 1      |
 
 ### Subjective 
 
 | Category                     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀         | Weight |
 |--------------------------------------|--------|
 | Shape and Comfort                      | 3      |
-| Fortnite Aim Performance                   | 2      |
-| Valorant Aim Performance                          | 1      |
+| Valorant Aim Performance                          | 3      |
 | Software                              | 1      |
 
 ## Categories and Weights for Mousepads
